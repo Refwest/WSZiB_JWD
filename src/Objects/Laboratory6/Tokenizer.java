@@ -1,6 +1,6 @@
 package Objects.Laboratory6;
 
-public class StringTokenizer {
+public class Tokenizer {
     /*Utwórz program, który zmienia datę urodzin w formacie
     DD/MM/RRRR (na przykład 29/04/2016) na trzy oddzielne teksty.*/
 
