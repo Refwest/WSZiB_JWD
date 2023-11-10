@@ -1,4 +1,4 @@
-package Variable;
+package Variable.Laboratory3;
 
 public class Square {
     //    Napisz program obliczający pole powierzchni, obwód oraz długość przekątnej dla kwadratów o następujących długościach boku: 2, 7, 11 oraz 19.
