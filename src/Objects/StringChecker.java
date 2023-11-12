@@ -11,5 +11,8 @@ public class StringChecker {
         System.out.println("Indeks pierwszej litery 't' :" + str.indexOf("t"));
         System.out.println("Indeks początku podtekstu: \"długi\": " + str.indexOf("długi"));
         System.out.println("Tekst zapisany wielkimi literami :" + str.toUpperCase());
+        System.out.printf("%B", 1==1);
+        System.out.println();
+        System.out.printf("%b", 1==1);
     }
 }

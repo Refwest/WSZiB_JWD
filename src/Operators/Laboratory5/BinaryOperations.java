@@ -26,6 +26,5 @@ public class BinaryOperations {
         System.out.println("-------------------------------------- ^");
         result = result ^ binNum3;
         System.out.println(result);
-
     }
 }

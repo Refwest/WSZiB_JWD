@@ -1,7 +1,5 @@
 package Objects;
 
-import Objects.Laboratory6.Tokenizer;
-
 import java.util.StringTokenizer;
 
 public class TokenTester {

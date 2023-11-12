@@ -1,6 +1,7 @@
 package Objects;
 
 public class EqualsTester {
+    // Referencja - == oraz .equals
     public static void main(String[] args) {
         String str1, str2;
         str1 = "Ale to się rozrasta.";

@@ -1,7 +1,7 @@
 package Objects;
 
 import java.util.Locale;
-
+//Edycja tekstu
 public class Printf {
     public static void main(String[] args) {
         int x = 1500000;

@@ -23,6 +23,25 @@ public class NumeralConverter {
 
     }
 
+//    public static int convert3(String str) {
+//        switch (str) {
+//            case "jeden", "jedynka" -> return 1;
+//            case "dwa", "dwójka" -> return 2;
+//            case "trójka", "trzy" -> return 3;
+//            default -> return 0;
+//        }
+//    }
+
+public static int convert3(String str) {
+    return switch (str) {
+        case "jeden", "jedynka" -> 1;
+        case "dwa", "dwójka" -> 2;
+        case "trójka", "trzy" -> 3;
+        default -> 0;
+    };
+}
+
+
     public static int convert2(String str) {
         return switch (str) {
             case "jeden":
@@ -37,6 +56,8 @@ public class NumeralConverter {
             default:
                 yield 0;
         };
+
+
 
     }
 }

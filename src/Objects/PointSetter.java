@@ -3,6 +3,7 @@ package Objects;
 import java.awt.*;
 
 public class PointSetter {
+    //Referencja obiektu
     public static void main(String[] args) {
         Point location = new Point(4,13);
         System.out.println("Położenie początkowe");
