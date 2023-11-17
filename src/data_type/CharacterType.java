@@ -14,6 +14,9 @@ public class CharacterType {
         asciiInfo('Ą');
         asciiInfo('!');
         asciiInfo('1');
+        asciiInfo('z');
+        asciiInfo('3');
+        asciiInfo('4');
         asciiInfo(d);
         asciiInfo(e);
     }
