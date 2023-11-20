@@ -12,19 +12,19 @@ import java.util.random.RandomGenerator;
 public class ChristmasTree {
     public static void main(String[] args) {
         int height;
-        char[] christmasBalls = {'+','.','*','~','^','o' };
+        char[] christmasBalls = {'+', '.', '*', '~', '^', 'o'};
         Random generator = new Random();
-        if(args.length > 0){
+        if (args.length > 0) {
             height = Integer.parseInt(args[0]);
         } else {
             height = 18;
         }
         for (int i = 1; i <= height; i++) {
-            for (int j = (height-i); j > 0; j--) {
+            for (int j = (height - i); j > 0; j--) {
                 System.out.printf("%s", " ");
             }
-            for (int j = 0; j < (2*i-1); j++) {
-               System.out.printf("%s", christmasBalls[generator.nextInt(christmasBalls.length)]);
+            for (int j = 0; j < (2 * i - 1); j++) {
+                System.out.printf("%s", christmasBalls[generator.nextInt(christmasBalls.length)]);
             }
             System.out.println();
         }

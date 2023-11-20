@@ -17,18 +17,19 @@ public class UserArray {
         revers(array);
     }
 
-    public static void fillIn(int[] a){
+    public static void fillIn(int[] a) {
         for (int i = 0; i < a.length; i++) {
-            a[i] = i+1;
+            a[i] = i + 1;
             System.out.println((i) + " argument tablicy to: " + a[i]);
         }
         System.out.println("---------------------------");
     }
-    public static void revers(int[] b){
+
+    public static void revers(int[] b) {
         int[] c = new int[b.length];
         for (int i = (b.length - 1); i >= 0; i--) {
-            c[(b.length - (i+1))] = b[(i)];
-            System.out.println((b.length - (i+1)) + " argument tablicy to: " + c[(b.length - (i+1))]);
+            c[(b.length - (i + 1))] = b[(i)];
+            System.out.println((b.length - (i + 1)) + " argument tablicy to: " + c[(b.length - (i + 1))]);
         }
         System.out.println("---------------------------");
     }
