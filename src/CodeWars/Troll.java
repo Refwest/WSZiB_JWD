@@ -13,13 +13,14 @@ public class Troll {
     public static void main(String[] args) {
         System.out.println(disemvowel("This website is for losers LOL!"));
         System.out.println(alternative("This website is for losers LOL!"));
+        System.out.println(alternative2("This website is for losers LOL!"));
 
     }
 
     public static String disemvowel(String str) {
         String[] array = str.split("");
         for (int i = 0; i < array.length; i++) {
-            switch(array[i]) {
+            switch (array[i]) {
                 case "a":
                 case "e":
                 case "i":
@@ -39,7 +40,13 @@ public class Troll {
         }
         return result;
     }
+
     public static String alternative(String str) {
-        return str.replaceAll("(?i)[aeiou]","");
+        return str.replaceAll("(?i)[aeiou]", "");
+    }
+
+    public static String alternative2(String str) {
+        return str.replaceAll("[aeiou]", "");
     }
 }
+
