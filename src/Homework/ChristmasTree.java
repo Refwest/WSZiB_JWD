@@ -1,6 +1,6 @@
 package Homework;
 
-//        Napisz program wyświetlający świąteczną choinkę składającą się z
+//F        Napisz program wyświetlający świąteczną choinkę składającą się z
 //        losowych elementów następującego zbioru znaków ASCII: ‘+’, ‘.’, ‘*’,
 //        ‘~’, ‘^’, ‘o’. Wysokość choinki powinna być podawana jako argument
 //        programu. Jeżeli wysokość nie zostanie określona to powinna zostać
