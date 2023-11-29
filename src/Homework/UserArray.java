@@ -1,7 +1,7 @@
 package Homework;
 
 public class UserArray {
-//    Napisz program, który:
+//F   Napisz program, który:
 //    *stworzy tablicę liczb typu int o rozmiarze, który będziemy
 //    podawać jako argument przy starcie programu,
 //    wypełni tablicę kolejno liczbami od 1 do n, gdzie n to rozmiar tablicy,

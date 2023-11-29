@@ -1,7 +1,7 @@
 package Loops.Training;
 
 import java.util.Scanner;
-
+//F
 public class TextScanner {
     public static void main(String[] args) {
         Scanner userValue = new Scanner(System.in);
