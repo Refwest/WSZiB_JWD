@@ -4,4 +4,4 @@ Repozytorium zwiera ćwiczenia oraz naukę programowania w języku java podczas 
 
 The repository includes exercises and practice examples for Java programming during studies.
 
-![programming.png](programming.png)
+![programming!](programming.png)
