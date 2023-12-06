@@ -12,6 +12,7 @@ package CodeWars;
 //Assertion messages may be unclear about what they display in some languages. If you read "...It Should encode XXX", the "XXX" is the expected result, not the input!
 public class DuplicateEncoder {
     static String encode(String word){
+        word.toCharArray(); 
         return word;
     }
 }
