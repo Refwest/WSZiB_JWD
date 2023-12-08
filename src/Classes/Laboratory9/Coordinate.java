@@ -9,30 +9,42 @@ import Loops.ForLoops;
 
 import java.awt.*;
 
-public class Coordinate {
+/*public class Coordinate {
     public static void main(String[] args) {
         System.out.println(FourDPoint.create(5, 7, 8, 9).getLocation());
         System.out.println(FourDPoint.create(5, 7, 8, 9).z);
         System.out.println(FourDPoint.show());
     }
-}
+}*/
 
 class FourDPoint extends Point {
-    int z;
-    int t;
+    static int x;
+    static int y;
+    static int z;
+    static int t;
 
-    public static FourDPoint create(int x, int y, int z, int t) {
-        FourDPoint point4d = new FourDPoint();
-        point4d.x = x;
-        point4d.y = y;
-        point4d.z = z;
-        point4d.t = t;
+    public static void main(String[] args) {
+        create(5, 7, 8, 9);
+        show();
+        FourDPoint.x = 7;
+        show();
+//        System.out.println(FourDPoint.x);
 
-        return point4d;
     }
 
-    public static FourDPoint show(){
-        return new FourDPoint(5, 5, 5, 5);
+    public static void create(int x, int y, int z, int t) {
+        FourDPoint.x = x;
+        FourDPoint.y = y;
+        FourDPoint.z = z;
+        FourDPoint.t = t;
+
+    }
+
+    public static void show() {
+        System.out.print("FourDPoint[x:" + FourDPoint.x + ", ");
+        System.out.print("y:" + FourDPoint.y + ", ");
+        System.out.print("z:" + FourDPoint.z + ", ");
+        System.out.print("t:" + FourDPoint.t + "]");
     }
 }
 
