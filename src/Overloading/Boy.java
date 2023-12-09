@@ -2,9 +2,11 @@ package Overloading;
 
 public class Boy extends Human {
     public static void main(String[] args) {
-        eat();
+        Boy boy = new Boy();
+        boy.eat();
+
     }
-    static void eat(){
+    void eat(){
         System.out.println("Mężczyźni preferują posiłki z mięsem");
     }
 }

@@ -3,9 +3,14 @@ package Overloading;
 Na przykładzie symbolicznej metody eat() zademonstruj działanie mechanizmu przesłaniania.*/
 public class Human {
     public static void main(String[] args) {
-        eat();
+
+       Human human  = new Human();
+        human.eat();
+        Boy boy = new Boy();
+        boy.eat();
+
     }
-    static void eat(){
+    void eat(){
         System.out.println("Ludzie są wszystko żerni");
     }
 }

@@ -12,9 +12,9 @@ public class Calculator {
         int a = calculator.calc(5, 5, 5);
         int b = calculator.calc(5, 5);
         double c = calculator.calc(5.4, 5.3, 5.3);
-        double d = calculator.calc(5.1, 5.1);
-        System.out.println(a);
-        System.out.println(b);
+        double d = calculator.calc(5.1, .9);
+        System.out.println("5 + 5 + 5 = " + a);
+        System.out.println("5 + 5 = " + b);
         System.out.println(c);
         System.out.println(d);
     }
@@ -32,6 +32,6 @@ public class Calculator {
     }
 
     double calc(double a, double b, double c) {
-        return (a + b + c);
+        return this.calc(a, b) + c;
     }
 }
