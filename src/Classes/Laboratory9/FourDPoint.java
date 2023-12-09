@@ -8,6 +8,8 @@ package Classes.Laboratory9;
 import Loops.ForLoops;
 
 import java.awt.*;
+
+/*
 class FourDPoint extends Point {
     static int x;
     static int y;
@@ -38,4 +40,29 @@ class FourDPoint extends Point {
         System.out.print("z:" + FourDPoint.z + ", ");
         System.out.print("t:" + FourDPoint.t + "]");
     }
+}*/
+class FourDPoint extends Point {
+    int z;
+    int t;
+
+    public static void main(String[] args) {
+        FourDPoint forDPoint = create(5, 6, 7, 8);
+        forDPoint.show();
+    }
+    static FourDPoint create(int x, int y, int z, int t) {
+        FourDPoint forDPoint = new FourDPoint();
+        forDPoint.x = x;
+        forDPoint.y = y;
+        forDPoint.z = z;
+        forDPoint.t = t;
+        return forDPoint;
+    }
+    void show(){
+        System.out.println("x wynosi " + this.x);
+        System.out.println("y wynosi " + this.y);
+        System.out.println("z wynosi " + this.z);
+        System.out.println("t wynosi " + this.t);
+    }
+
+
 }

@@ -8,7 +8,7 @@ package Classes.Laboratory9;
 public class SquareRoot {
     public static void main(String[] args) {
         System.out.println("Enter your value: ");
-        double sqrRoot = Math.sqrt(Integer.parseInt(args[0]));
+        double sqrRoot = Math.sqrt(Double.parseDouble(args[0]));
         System.out.printf("Square root of: %s is equal to: %.2f %n", args[0], sqrRoot);
     }
 }
