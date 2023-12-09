@@ -8,15 +8,6 @@ package Classes.Laboratory9;
 import Loops.ForLoops;
 
 import java.awt.*;
-
-/*public class Coordinate {
-    public static void main(String[] args) {
-        System.out.println(FourDPoint.create(5, 7, 8, 9).getLocation());
-        System.out.println(FourDPoint.create(5, 7, 8, 9).z);
-        System.out.println(FourDPoint.show());
-    }
-}*/
-
 class FourDPoint extends Point {
     static int x;
     static int y;
@@ -27,6 +18,7 @@ class FourDPoint extends Point {
         create(5, 7, 8, 9);
         show();
         FourDPoint.x = 7;
+        System.out.println();
         show();
 //        System.out.println(FourDPoint.x);
 
@@ -47,7 +39,3 @@ class FourDPoint extends Point {
         System.out.print("t:" + FourDPoint.t + "]");
     }
 }
-
-
-
-
