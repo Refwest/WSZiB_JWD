@@ -1,6 +1,14 @@
 package Constructors.Lab11;
 
-public class C extends B {
+import java.sql.SQLOutput;
 
+public class C extends B {
+    public C() {
+        System.out.println("Konstruktor C");
+    }
+
+    public static void main(String[] args) {
+        C klasaC = new C();
+    }
 
 }
