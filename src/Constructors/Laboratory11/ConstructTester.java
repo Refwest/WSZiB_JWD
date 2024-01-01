@@ -45,7 +45,7 @@ class B extends A {
 */
 public class ConstructTester {
     public static void main(String[] args) {
-        new C(false);
+        new A(false);
     }
 }
 
@@ -56,7 +56,7 @@ class A {
 
     public A(boolean silent) {
         super();
-        if(!silent){
+        if (!silent) {
             System.out.println("Działa konstruktor A(" + silent + ")");
         }
     }
@@ -70,7 +70,7 @@ class B extends A {
 
     public B(boolean silent) {
         super(true);
-        if(!silent){
+        if (!silent) {
             System.out.println("Działa konstruktor B(" + silent + ")");
         }
     }
@@ -83,7 +83,7 @@ class C extends B {
 
     public C(boolean silent) {
         super(true);
-        if(!silent){
+        if (!silent) {
             System.out.println("Działa konstruktor C(" + silent + ")");
         }
     }

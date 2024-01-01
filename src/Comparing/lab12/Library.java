@@ -1,7 +1,7 @@
 package Comparing.lab12;
 
 public class Library {
-
+//F
     public static void main(String[] args) {
 
         Book[] library = new Book[6];
@@ -13,7 +13,7 @@ public class Library {
         library[5] = new Book("Hobbit, czyli tam i z powrotem", "J.R.R. Tolkien", "Spółdzielnia Wydawnicza „Czytelnik”", 1937);
 
         equals(library[1], library[5]);
-        equals(library[1], library[2]);
+        equals(library[1], library[4]);
     }
 
     public static void equals(Book a, Book b) {

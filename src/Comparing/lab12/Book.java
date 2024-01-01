@@ -1,5 +1,5 @@
 package Comparing.lab12;
-
+//F
 import java.util.Objects;
 
 /*Napisz program porównujący książki, w tym celu:
