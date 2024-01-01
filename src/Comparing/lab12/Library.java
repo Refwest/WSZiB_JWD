@@ -12,13 +12,17 @@ public class Library {
         library[4] = new Book("Pan Tadeusz", "Adam Mickiewicz", "Aleksander Jełowicki", 1928);
         library[5] = new Book("Hobbit, czyli tam i z powrotem", "J.R.R. Tolkien", "Spółdzielnia Wydawnicza „Czytelnik”", 1937);
 
-        /*Object[] library = new Object[5];
-        library[0] = new Book("asd", "asd", "asd", 2013);*/
-
-        System.out.println(library[0].toString());
-        System.out.println(library[0].equals(library[1]));
-        System.out.println(library[1].equals(library[5]));
+        equals(library[1], library[5]);
+        equals(library[1], library[2]);
     }
 
+    public static void equals(Book a, Book b) {
+        System.out.println();
+        System.out.println("Porównywane pozycje:");
+        System.out.println(a.toString());
+        System.out.println(b.toString());
+        System.out.println("---------------------------");
+        System.out.println("Książki " + ((a.equals(b)) ? "są" : "nie są") + " takie same.");
+    }
 }
 
