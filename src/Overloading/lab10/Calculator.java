@@ -16,6 +16,7 @@ public class Calculator {
         System.out.println(result);
         System.out.println(result2);
         System.out.println(calc.add(1,1,222));
+        System.out.println(calc.add(1,12,222));
     }
 
     public int add(int a, int b) {
